@@ -27,7 +27,6 @@ public class ChromeDriverSetup {
         origin.sendKeys("");
         driver.findElement(By.id("origin-option-1")).click();
 
-
         WebElement destination = driver.findElement(By.id("destination"));
         destination.sendKeys("");
         driver.findElement(By.id("destination-option-0")).click();

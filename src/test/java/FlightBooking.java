@@ -38,7 +38,7 @@ public class FlightBooking {
         System.out.println("Origin passed");
 
         searchPage.destination("");
-        System.out.println("Destination passed");
+        System.out.println("Destination passed.");
 
         searchPage.travelDates();
 
